@@ -1,59 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
-<title>Currículo</title>
-<style>
-body {
-font-family: Arial, sans-serif;
-background-color: #f0f0f0;
-margin: 0;
-padding: 0;
-}
+  <meta charset="UTF-8">
+  <title>Sobre Mim</title>
+  <style>
+    body {
+      background-image: url("carroes.jpg"); /* sol */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: white;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
 
-#header {
-background-color: #333;
-color: #fff;
-text-align: center;
-padding: 20px;
-}
+    main {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 30px;
+      max-width: 800px;
+      margin: 50px auto;
+      border-radius: 10px;
+    }
 
-#profile-image {
-max-width: 200px;
-border-radius: 50%;
-display: block;
-margin: 0 auto;
-}
+    img {
+      width: 200px;
+      border-radius: 50%;
+    }
 
-#main-content {
-padding: 20px;
-
-}
-</style>
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+  </style>
 </head>
 <body>
-<div id="header">
-<h1>Meu Currículo</h1>
-</div>
-<div id="main-content">
-<h2>Dados Pessoais</h2>
-<img id="profile-image" src="sol.jpg" alt="Foto de Perfil" width="300">
-<p>Nome: ALDAIR ALCIN</p>
-<p>E-mail: aldair.alcin@aluno.fmpsc.edu.br</p>
-<p>Telefone: (48)9765.4564</p>
+  <header>
+    <h1>Quem Sou Eu?</h1> <!-- Tag 1: h1 -->
+  </header>
 
-<h2>Professor de ingles</h2>
-<p>Cargo: Ensino fundamental</p>
-<p>Empresa: SENAC</p>
-<p>Descrição: Realisar cursos de ingles para alunos no fundamental.</p>
+  <main>
+    <section>
+      <p>Olá! Meu nome é Aldair e sou apaixonado por tecnologia, programação e design. Gosto de criar soluções práticas usando HTML, CSS e JavaScript.</p> <!-- Tag 2: p -->
+    </section>
 
-<h2>Ensino superior incompleto</h2>
-<p>Curso: ciencias contabeis</p>
-<p>Instituição: INAGHEI</p>
-<p>Ano de Conclusão: 2020</p>
-</div>
+    <figure>
+      <img src="sol.jpg" alt="Minha foto de perfil"> <!-- Tag 3: img | Tag 4: figure -->
+      <figcaption>Essa é uma foto minha recente.</figcaption> <!-- Tag 5: figcaption -->
+    </figure>
+
+    <article>
+      <h2>Meus Interesses</h2> <!-- Tag 6: h2 -->
+      <ul> <!-- Tag 7: ul -->
+        <li>Desenvolvimento Web</li>
+        <li>Jogos Digitais</li>
+        <li>Inteligência Artificial</li>
+      </ul>
+    </article>
+  </main>
+
+  <footer> <!-- Tag 8: footer -->
+    <p>&copy; 2025 Aldair ALCIN</p>
+  </footer>
 </body>
-
 </html>
-
-
-
